@@ -35,7 +35,7 @@ export default function Home() {
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 text-center animate-fade-in">
         <h2 className="text-sm text-zinc-500 ">
-         I build products that further human progress, I am deeply engaged in Web3 projects, focusing on community growth and innovative marketing strategies. My current venture involves exploring the intersection of LLMs and Blockchain, to address critical pain points. Additionally, I produce content to share insights around the impact of these technologies.
+         I build products that further human progress, I am deeply engaged in Web3 projects, focusing on community growth and innovative marketing strategies.<br> My current venture involves exploring the intersection of LLMs and Blockchain, to address critical pain points.<b> Additionally, I produce content to share insights around the impact of these technologies.
           
         </h2>
       </div>
