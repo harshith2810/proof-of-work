@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .text-edge-outline {
+    -webkit-text-stroke: 1px rgba(255,255,255,0.3);
+  }
+} 
+
+
+
+@font-face {
+  font-family: "ClashGrotesk";
+  font-weight: 200;
+  src: url("/public/fonts/ClashGrotesk-Bold.ttf") format("ttf");
+}
+
+
+.Text{
+  font-family: "ClashGrotesk-Light", sans-serif;
+}
+
+@font-face {
+  font-family: "ClashGrotesk-Light";
+  font-weight: 200;
+  src: url("/public/fonts/ClashGrotesk-Light.ttf") format("ttf");
+}
+
+.Nav{
+  font-family: 'ClashGrotesk-Regular', sans-serif;
+}
+
+@font-face {
+  font-family: "ClashGrotesk-Regular";
+  font-weight: 200;
+  src: url("/public/fonts/ClashGrotesk-Regular.ttf") format("ttf");
+}
